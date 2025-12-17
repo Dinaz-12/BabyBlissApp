@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">BabyBlissApp</string>
+    <string name="onboardbtn1">Next</string>
+    <string name="onboardbtn2">Next</string>
+    <string name="onboardbtn3">Next</string>
+    <string name="onboardbtn4">Get Started</string>
+
+    <string name="username">Enter Username</string>
+    <string name="password">Enter password</string>
+    <string name="forgetpassword">Forget Password</string>
+    <string name="loginbtn">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="registerbtn">Register</string>
+    <string name="fullname">Enter full name</string>
+    <string name="email">Enter your email</string>
+    <string name="compassword">Confirm password</string>
+
+    <string name="description1">Ready to feed your little one?</string>
+    <string name="cat1">0-6 Months</string>
+    <string name="cat2">6-9 Months</string>
+    <string name="cat3">9-12 Months</string>
+    <string name="cat4">12 Months+</string>
+    <string name="cat5">Organic</string>
+    <string name="cat6">Drinks</string>
+    <string name="cat7">Snacks</string>
+    <string name="itemChart">Food Chart</string>
+    <string name="itemSongs">Baby Songs</string>
+    <string name="itemRecipes">Home Food Recipes</string>
+    <string name="itemHistory">Order History</string>
+    <string name="itemSetting">Setting</string>
+    <string name="itemLogout">Logout</string>
+
+
+    <string name="product1">Nestle Cerelac</string>
+    <string name="price">Rs.950.00</string>
+    <string name="weight">1kg</string>
+    <string name="delivery">Delivery : 6-14 working days</string>
+    <string name="addcart">Add to cart</string>
+
+    <string name="myCart">My Cart</string>
+    <string name="cartbtn">Buy Now</string>
+    <string name="cartPrudName1">Nestle Cerelac</string>
+    <string name="cartPrudPrice1">Rs.950.00</string>
+    <string name="cartPrudW1">1Kg</string>
+    <string name="cartPrudName2">Revello dark Chocolate</string>
+    <string name="cartPrudPrice2">Rs.450.00</string>
+    <string name="cartPrudW2">50g</string>
+    <string name="cartPrudName3">Swiss cheese</string>
+    <string name="cartPrudPrice3">Rs.1840.00</string>
+    <string name="cartPrudW3">400g</string>
+    <string name="total">Total</string>
+    <string name="totPrice">Rs. 3240.00</string>
+
+    <string name="fav">Wish List</string>
+    <string name="favitem1_1">Nan Pro</string>
+    <string name="favitem1_2">RS.3500.00</string>
+    <string name="favitem1_3">400g</string>
+    <string name="favitem2_1">Dark Chocolate</string>
+    <string name="favitem2_2">Rs.990.00</string>
+    <string name="favitem2_3">100g</string>
+    <string name="favitem3_1">Green Peas</string>
+    <string name="favitem3_2">Rs.1530.00</string>
+    <string name="favitem3_3">150g</string>
+    <string name="favitem4_1">Choco Flakes</string>
+    <string name="favitem4_2">Rs.320.00</string>
+    <string name="favitem4_3">50g</string>
+    <string name="favitem5_1">Pear Zucchini</string>
+    <string name="favitem5_2">Rs.550.00</string>
+    <string name="favitem5_3">50g</string>
+
+    <string name="profile">My Profile</string>
+    <string name="salutation">Hi, Dinali..</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_addName">Dinali Chamodya</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_addEmail">dina@gmail.com</string>
+    <string name="profile_phone">Phone number</string>
+    <string name="profile_addPhone">074 170 9277</string>
+    <string name="profile_location">Location</string>
+    <string name="profile_addLocation">Avissawella</string>
+    <string name="profile_username">Username</string>
+    <string name="profile_addUname">Dinaz</string>
+    <string name="profile_password">Password</string>
+    <string name="profile_addPasswo">********</string>
+    <string name="edtBtn">Edit Profile</string>
+
+    <string name="payment">Payment</string>
+    <string name="payBtn">Pay Now</string>
+    <string name="cardNo">Card Number:</string>
+    <string name="cardHname">Card Holder\'s Name:</string>
+    <string name="cardExpiredate">MM/YY:</string>
+    <string name="cardCCV">CCV:</string>
+    <string name="saveinfor">Save card details</string>
+    <string name="confirmation">Payment Successful</string>
+
+    <string name="songTop">Baby Songs</string>
+    <string name="sName1">Twinkle, Twinkle, Little Star</string>
+    <string name="songTime1">2:04</string>
+    <string name="sName2">Rock-a-Bye Baby</string>
+    <string name="songTime2">2:21</string>
+    <string name="sName3">Hush, Little Baby</string>
+    <string name="songTime3">1:51</string>
+    <string name="sName4">Johnny Johnny - Yes Papa</string>
+    <string name="songTime4">2:15</string>
+    <string name="sName5">Roll-Roll-Roll your Boat</string>
+    <string name="songTime5">3:02</string>
+    <string name="sName6">Baa Baa Black Sheep</string>
+    <string name="songTime6">3:20</string>
+    <string name="sName7">Are you sleeping?</string>
+    <string name="songTime7">1:54</string>
+    <string name="sName8">The Wheels on the bus</string>
+    <string name="songTime8">3.56</string>
+    <string name="sName9">Hey Diddle Diddle</string>
+    <string name="songTime9">2.34</string>
+</resources>

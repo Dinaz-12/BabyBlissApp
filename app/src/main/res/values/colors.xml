@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="NavyBlue">#053050</color>
+    <color name="blue">#073DDE</color>
+    <color name="babyBlue">#7ACCFF</color>
+    <color name="softBlue">#DEEBF7</color>
+    <color name="softPurple">#053050</color>
+    <color name="purple">#916DB8</color>
+    <color name="babyPurple">#DED1F7</color>
+    <color name="lightPurple">#C107F4</color>
+    <color name="ash">#57575A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="recipeBlue">#95C9F5</color>
+    <color name="darkMode">#283036</color>
+</resources>

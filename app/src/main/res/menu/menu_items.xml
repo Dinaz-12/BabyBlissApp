@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_chart"
+        android:title="@string/itemChart" />
+    <item
+        android:id="@+id/item_songs"
+        android:title="@string/itemSongs" />
+    <item
+        android:id="@+id/item_recipes"
+        android:title="@string/itemRecipes" />
+    <item
+        android:id="@+id/item_history"
+        android:title="@string/itemHistory" />
+    <item
+        android:id="@+id/item_settings"
+        android:title="@string/itemSetting" />
+    <item
+        android:id="@+id/item_logout"
+        android:fontFamily="@font/inria_serif_bold"
+        android:title="@string/itemLogout" />
+</menu>

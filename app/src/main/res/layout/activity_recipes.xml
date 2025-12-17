@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/softBlue"
+    tools:context=".Recipes">
+
+    <Button
+        android:id="@+id/recipesBack"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_back_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recipesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/inria_serif_bold"
+        android:text="Home Food Recipes"
+        android:textColor="@color/NavyBlue"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/recipesScroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recipesTitle">
+
+        <LinearLayout
+            android:id="@+id/recipesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Recipe 1: Mashed Banana -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/softPurple"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/purple">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="1. Mashed Banana"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="24sp"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Age: 6+ months"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Ingredients:"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_regular"
+                        android:text="• 1 ripe banana"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Preparation:"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_regular"
+                        android:text="• Peel and mash the banana until smooth.\n• Add a little breast milk/formula if needed for consistency."
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginStart="8dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Recipe 2: Apple Puree -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/recipeBlue"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/purple">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="2. Apple Puree"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="24sp"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Age: 6+ months"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Ingredients:"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_regular"
+                        android:text="• 1 apple\n• Water"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Preparation:"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_regular"
+                        android:text="• Peel, core, and chop the apple.\n• Steam until soft, then blend into a smooth puree."
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginStart="8dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Recipe 3: Rice Cereal -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/softPurple"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/purple">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="3. Rice Cereal"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="24sp"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Age: 6+ months"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Ingredients:"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_regular"
+                        android:text="• 2 tbsp rice powder\n• Water or breast milk"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Preparation:"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_regular"
+                        android:text="• Cook rice powder with water until soft.\n• Add breast milk or formula to adjust thickness."
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginStart="8dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Recipe 4: Oats Porridge -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/recipeBlue"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/purple">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="4. Oats Porridge"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="24sp"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Age: 8+ months"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Ingredients:"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_regular"
+                        android:text="• 2 tbsp oats\n• Water or milk"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_bold"
+                        android:text="Preparation:"
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inria_serif_regular"
+                        android:text="• Cook oats in water until soft.\n• Blend or mash for smooth texture."
+                        android:textColor="@color/NavyBlue"
+                        android:textSize="16sp"
+                        android:layout_marginStart="8dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
